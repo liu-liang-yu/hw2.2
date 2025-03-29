@@ -24,3 +24,18 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
+
+// 添加 aria-label 屬性
+$(".owl-prev").attr("aria-label", "上一張圖片");
+$(".owl-next").attr("aria-label", "下一張圖片");
+$(".owl-dot").each(function(index) {
+    $(this).attr("aria-label", "切換到圖片 " + (index + 1));
+});
+});
+
+function openNav() {
+    document.getElementById("myNav").classList.toggle("menu_width");
+    document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+}
