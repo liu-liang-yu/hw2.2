@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins",
+ sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -85,7 +86,8 @@ body {
   padding: 0px 25px;
   color: #fefeff;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",
+ sans-serif;
 }
 
 .custom_menu-btn {
@@ -300,7 +302,8 @@ a:focus {
 }
 
 .slider_section .slider_container .detail_container .detail-box h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   color: #fefdfc;
@@ -321,6 +324,18 @@ a:focus {
 .slider_section .slider_container .detail_container .detail-box a:hover {
   background-color: transparent;
   color: #f22324;
+}
+
+a {
+  color: #ffffff; /* 白色文字 */
+  background-color: #007bff; /* 深藍色背景 */
+  padding: 10px 20px; /* 添加一些內邊距，使按鈕更大 */
+  border-radius: 5px; /* 添加圓角 */
+  text-decoration: none; /* 移除預設的下劃線 */
+}
+
+a:hover {
+  background-color: #0056b3; /* 滑鼠懸停時的背景顏色 */
 }
 
 .slider_section .carousel-control-prev,
@@ -873,7 +888,8 @@ a:focus {
 }
 
 .client_section {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",
+ sans-serif;
 }
 
 .client_section .heading_container {
