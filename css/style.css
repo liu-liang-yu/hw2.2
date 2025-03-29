@@ -327,15 +327,15 @@ a:focus {
 }
 
 a {
-  color: #ffffff; /* 白色文字 */
-  background-color: #007bff; /* 深藍色背景 */
-  padding: 10px 20px; /* 添加一些內邊距，使按鈕更大 */
-  border-radius: 5px; /* 添加圓角 */
-  text-decoration: none; /* 移除預設的下劃線 */
+  color: #ffffff !important; /* 白色文字 */
+  background-color: #007bff !important; /* 深藍色背景 */
+  padding: 10px 20px !important; /* 添加一些內邊距，使按鈕更大 */
+  border-radius: 5px !important; /* 添加圓角 */
+  text-decoration: none !important; /* 移除預設的下劃線 */
 }
 
 a:hover {
-  background-color: #0056b3; /* 滑鼠懸停時的背景顏色 */
+  background-color: #0056b3 !important; /* 滑鼠懸停時的背景顏色 */
 }
 
 .slider_section .carousel-control-prev,
