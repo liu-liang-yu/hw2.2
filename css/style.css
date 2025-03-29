@@ -1053,8 +1053,8 @@ a:hover {
 .contact_section .form_container form button {
   display: inline-block;
   padding: 10px 65px;
-  background-color: #f22324;
-  color: #fefdfc;
+  background-color: #007bff; /* 深藍色背景 */
+  color: #ffffff; /* 白色文字 */
   border-radius: 0;
   border: 1px solid #f22324;
   text-transform: uppercase;
@@ -1082,6 +1082,7 @@ a:hover {
 }
 
 .contact_section .contact_items a {
+  color: #000000; /* 黑色文字 */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1101,7 +1102,7 @@ a:hover {
 }
 
 .contact_section .contact_items a h6 {
-  color: #fefdfc;
+  color: #000000; /* 黑色文字 */
   margin: 0;
 }
 
